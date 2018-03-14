@@ -1,0 +1,18 @@
+--------------------Create a package.json------------------
+npm init
+--------------------Install nodmon-------------------------
+npm install --save-dev nodemon
+
+In package.json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+--------------------Install express------------------------
+npm install express --save
+--------------------Install mongoose-----------------------
+npm install mongoose --save
+--------------------Great tutorial-------------------------
+https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
+
+
